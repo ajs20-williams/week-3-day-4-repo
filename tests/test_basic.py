@@ -1,6 +1,6 @@
 import unittest, sys
 
-sys.path.append('../flask-hosting') # imports python file from parent directory
+sys.path.append('..') # imports python file from parent directory
 from app import app #imports flask app object
 
 class BasicTests(unittest.TestCase):
